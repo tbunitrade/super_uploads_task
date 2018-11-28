@@ -1,5 +1,6 @@
 <?php 
-
+ return header("HTTP/1.0 200 Ok");
+ 
 if ( isset( $_FILES['file']) )
 {
     $file   =   $_FILES['file'];    
